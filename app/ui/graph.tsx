@@ -33,7 +33,7 @@ export default function Graph({ invested = 8.5 }: { invested?: number }) {
         </div>
         <button
           onClick={() => setShowTable(!showTable)}
-          className="py-1.5 bg-white/5 rounded-xl px-4 text-sm hover:scale-[1.02] transition clashmedium text-gray-300"
+          className="py-1.5 bg-white/5 rounded-xl md:px-4 px-3 text-sm hover:scale-[1.02] transition clashmedium text-gray-300"
         >
           {showTable ? "Show Graph" : "Show Table"}
         </button>
