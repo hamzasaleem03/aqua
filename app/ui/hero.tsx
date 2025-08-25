@@ -30,7 +30,7 @@ export default function Hero() {
     },
     {
       label: "Gamble Rate",
-      value: "15%",
+      value: "15.00%",
       icon: "/images/streamline_discount-percent-fire-solid.png",
       valueIcon: "/images/sol-small.png",
     },
@@ -103,12 +103,12 @@ export default function Hero() {
             <input type="checkbox" className="accent-blue-500 rounded-xl" />
             <span className="text-gray-300 text-sm">Market Cap Graph</span>
           </div>
-          <div className="2xl:h-[40vh] md:h-[60vh] h40 h-64 bg1">
+          <div className="2xl:h-[40vh] md:h-[60vh] h40 h-64 bg1 py-4">
             <Graph />
           </div>
         </div>
         <div className="bg-white/10 rounded-xl backdrop-blur-md pb-6 pt-8 px-6 shadow-lg flex flex-col justify-between">
-          <ul className="space-y-3 text-white/80 text-sm clashmedium border-t border-white/10 pt-5 list-disc pl-4">
+          <ul className="space-y-3 text-white/80 text-sm clashnormal border-t border-white/10 pt-5 list-disc pl-4">
             <li>
               There’s 10 different entry chances, the most profitable ones are
               the less profitable, but even though, structured in a way where

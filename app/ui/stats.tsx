@@ -14,7 +14,7 @@ export default function Stat({ label, value, icon, valueIcon }: StatProps) {
         <Image src={icon} alt={label} width={18} height={18} />
         <span className="text-white/50 text-[15px] clashnormal">{label}</span>
       </div>
-      <div className="flex items-center space-x-2 mt-2">
+      <div className="flex items-center space-x-2 mt-2 pt-2">
         <Image
           src={valueIcon}
           alt={value}

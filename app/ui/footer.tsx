@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 export default function Graph() {
   return (
     <>
       <footer className="flex justify-between items-center mt-8 mt8 text-white text-xs clashmedium md:max-w-[1500px] w-full mx-auto md:flex-nowrap flex-wrap gap-y-4">
-        <span className="px-3 py-1.5 bg-white/5 rounded-xl flex gap-2 items-center">
+        <span className="px-3 py-1.5 bg-white/5 rounded-xl flex gap-2 items-center cursor-pointer">
           {" "}
           <Image
             src="/images/wpf_faq.png"
