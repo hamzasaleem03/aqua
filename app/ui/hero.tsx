@@ -98,15 +98,8 @@ export default function Hero() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:max-w-[1500px] w-full mx-auto">
         {/* Chart */}
-        <div className="bg-white/10 rounded-xl backdrop-blur-md p-6 shadow-lg">
-          <div className="flex items-center space-x-2 mb-4 clashmedium py-1 bg-white/5 rounded-xl w-[170px] px-3">
-            <input type="checkbox" className="accent-blue-500 rounded-xl" />
-            <span className="text-gray-300 text-sm">Market Cap Graph</span>
-          </div>
-          <div className="2xl:h-[40vh] md:h-[60vh] h40 h-64 bg1 py-4">
-            <Graph />
-          </div>
-        </div>
+        <Graph />
+        {/* Ends */}
         <div className="bg-white/10 rounded-xl backdrop-blur-md pb-6 pt-8 px-6 shadow-lg flex flex-col justify-between">
           <ul className="space-y-3 text-white/80 text-sm clashnormal border-t border-white/10 pt-5 list-disc pl-4">
             <li>
